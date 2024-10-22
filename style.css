@@ -39,7 +39,7 @@ body{
     height: 100vh; /* 100% of the viewport height */
     background-image: linear-gradient(to bottom,  #2c67f2, #87CEEB);
     z-index: -2;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
 
 }
 #card2{
@@ -289,6 +289,9 @@ p{
     }
     .card-content{
         margin-top: -50px;
+    }
+    .intro-container{
+        margin-top: -15px;
     }
     .who-gallery{
         /* text-align: center; */
