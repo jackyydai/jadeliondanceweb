@@ -39,6 +39,7 @@ body{
     height: 100vh; /* 100% of the viewport height */
     background-image: linear-gradient(to bottom,  #2c67f2, #87CEEB);
     z-index: -2;
+    padding-bottom: 15px;
 
 }
 #card2{
@@ -293,6 +294,11 @@ p{
         /* text-align: center; */
         display: flex;
         flex-direction: column;
+    }
+    .about-text{
+        width: 90%;
+        margin: auto;
+        text-align: center;
     }
 }
 
