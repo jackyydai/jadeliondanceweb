@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a website to get Jacky a job">
+    <meta name="author" content="Jacky Dai">
+    <title> UCLA Lion Dance </title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class = "navbar-content">
+            <div class="logo">
+                <h4>
+                    Jade Lotus Lion Dance
+                </h4>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#card2">About</a></li>
+                <!-- <li><a href="#">Testimonals</a></li> -->
+                <a href="mailto:ykcaj@g.ucla.edu">
+                    <button class="button2">Book</button>
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="card">
+        <div class="card-content">
+            <div class="intro-container">
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                <h1> 
+                        Jade Lotus Lion Dance
+                </h1>
+                <h2 class="intro">
+                    UCLA's student-led lion dance troupe
+                </h2>
+                <button class="button1" onclick= "scrollToSection()" >Learn more</button><a href="mailto:ykcaj@g.ucla.edu"><button class="button2">Book</button></a>
+            </div>
+            <div class="intro-picture">
+                <br><br><br><br><br><br>
+                <img src="lion2.png" alt="Description of the image" class="big-image">
+            </div>
+        </div>
+    </div>
+
+    <br><br><br>
+    <div id="card2">
+        <br>
+        <div class="about-text"><h3>A community of students, run by students.</h3></div>
+        <img src="groupphoto.png" alt="Description of the image" class="about-image">
+    </div>
+
+    <div >
+        <div>
+            <article class="who">
+                <div class="who-content">
+                    <h2>Who are we?</h2>
+                    <p>
+                        We are a Chinese lion dance team at UCLA affiliated with the Association of Chinese Americans (ACA). Founded in 2001 originally as an aspect for ACA's Chinese American Culture Night (CACN), the continued growth of the team allows us to entertain and perform at many locales and celebrations in the Los Angeles area.
+In addition to collegiate performances such as UCLA's CACN and southern California's Chinese Heritage Festival, we perform at various venues and events, ranging from Lunar New Year celebrations, weddings, grand openings, blessings, parades, cultural celebrations, and birthday parties!
+                    </p>
+                </div>
+                <div class="who-gallery">
+                    <div class="image-container">
+                        <img src="who1.png" alt="Description of the image" class="who-images">
+                    </div>
+                    <div class="image-container">
+                        <img src="who2.png" alt="Description of the image" class="who-images">
+                    </div>
+
+                </div>
+            </article>
+        </div>
+    </div>
+
+
+    <br><br><br><br><br>
+
+    <div class="canvas-container">
+        <div class="timeline">
+            <article class="timeline-entry">
+                <h2 class="timeline-co type-primary"><a> Contact us! </a> <span class="timeline-time " style = "font-size: 70%;" >If you would like to book us for a performance, you can contact us by email. We look forward to hearing from you!
+                    <br><br>
+                    <a href="mailto:ykcaj@g.ucla.edu">
+                        <img src="mail.webp" alt="Description of the image" style="width:50px;height:auto;">
+                    </a>
+                </span>
+                    
+                
+                </h2 >
+                    <div class="timeline-description">
+                        <div class="contact-container">
+                            <img src="contact.png" alt="Description of the image" class="contact-images">
+                        </div>
+                    </div>
+            </article>
+        </div>
+    </div>
+
+
+
+    </div>
+      <footer>
+        <div class="footer-content">
+            <p>You can follow us on <a class = "link" href="https://www.instagram.com/uclaliondance/">Instagram</a> and <a class="link" href="mailto:ykcaj@g.ucla.edu">Email</a> to book us here .</p> 
+        </div>
+    </footer>
+
+    <script>
+        function scrollToSection() {
+            const section = document.getElementById("card2");
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+</body>
+</html>
